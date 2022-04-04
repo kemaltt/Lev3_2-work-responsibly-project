@@ -108,16 +108,23 @@ header h4::before {
 }
 
 .image img {
-    width: 250px;
+    width: 16rem;
     margin: 1rem;
 }
 
-.image img:hover,
+.image img:hover {
+    box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+}
+
 .sectionTwo img:hover {
     box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
     -moz-box-shadow: 12px 7px 20px 1px rgba(0, 0, 0, 0.6);
     border-radius: 1rem;
+    width: 605px;
 }
 
 .sectionTwo {
