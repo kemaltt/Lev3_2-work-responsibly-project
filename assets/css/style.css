@@ -69,14 +69,14 @@ nav a {
 
 .social-media {
     margin-top: 5rem;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 }
 
 .social-media img {
     display: block;
-    width: 25px;
     margin-left: auto;
-    margin-bottom: 0.5rem;
+    width: 2rem;
+    margin-top: 0.5rem;
 }
 
 header h4::before {
